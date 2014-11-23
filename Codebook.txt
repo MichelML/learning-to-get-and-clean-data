@@ -56,7 +56,17 @@ If readers read information about the raw data set, they will easily understand 
 variable name			description			values
 
 Subject				subject number			from 1 to 30
-Activity			Acitivity label
+	values are integer representing a single subject
+	
+	
+Activity			Acitivity label			from 1 to 6
+	values are integer representing a type of activity
+	1 = walking
+	2 = walking_upstairs
+	3 = walking_downstairs
+	4 = sitting
+	5 = standing
+	6 = laying
 
 *all of the next variables represent the mean and standard deviation of signals used to estimate variables of the feature vector for each pattern
 *standard deviation variables include the term "std()" and mean variables include the term mean()                
