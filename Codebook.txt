@@ -68,8 +68,8 @@ Activity			Acitivity label			from 1 to 6
 	5 = standing
 	6 = laying
 
-*all of the next variables represent the mean and standard deviation of signals used to estimate variables of the feature vector for each pattern
-*standard deviation variables include the term "std()" and mean variables include the term mean()                
+*all of the next variables represent the mean and standard deviation of signals used to estimate variables of the feature 
+*vector for each pattern. Standard deviation variables include the term "std()" and mean variables include the term mean()                
 tBodyAcc-mean()-X				numeric     		       
 tBodyAcc-mean()-Y 				numeric          
 tBodyAcc-mean()-Z 				numeric           
