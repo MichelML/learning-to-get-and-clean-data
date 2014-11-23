@@ -53,10 +53,10 @@ If readers read information about the raw data set, they will easily understand 
 
 ======================================Variables======================================
 
-variable name		description			values
+variable name			description			values
 
-Subject             subject number      from 1 to 30
-Activity      		Acitivity label
+Subject				subject number			from 1 to 30
+Activity			Acitivity label
 
 *all of the next variables represent the mean and standard deviation of signals used to estimate variables of the feature vector for each pattern
 *standard deviation variables include the term "std()" and mean variables include the term mean()                
