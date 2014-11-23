@@ -120,9 +120,9 @@ fBodyGyro-std()-Y				numeric
 fBodyGyro-std()-Z				numeric          
 fBodyAccMag-mean()				numeric          
 fBodyAccMag-std()				numeric          
-fBodyBodyAccJerkMag-mean()				numeric    
-fBodyBodyAccJerkMag-std()				numeric    
+fBodyBodyAccJerkMag-mean()			numeric    
+fBodyBodyAccJerkMag-std()			numeric    
 fBodyBodyGyroMag-mean()				numeric     
 fBodyBodyGyroMag-std()				numeric     
-fBodyBodyGyroJerkMag-mean()				numeric   
-fBodyBodyGyroJerkMag-std()				numeric   			
+fBodyBodyGyroJerkMag-mean()			numeric   
+fBodyBodyGyroJerkMag-std()			numeric   			
