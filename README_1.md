@@ -1,0 +1,36 @@
+##Global explanation of what was demanded
+
+Hi, you will find in this directory the script and the code book required for the project of the coursera course.
+
+The goal is to create an R script called run_analysis.R that does the following. 
+1.Merges the training and the test sets to create one data set.
+2.Extracts only the measurements on the mean and standard deviation for each measurement. 
+3.Uses descriptive activity names to name the activities in the data set
+4.Appropriately labels the data set with descriptive variable names. 
+5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+##Global explanation of what I executed
+
+With my best effort and knowledge, I produce the document and script demanded. However, consider that my
+script does not follow the exact steps proposed in the project instructions. That being said,
+Readers should however understand that the script will lead to the goal demanded: produce the tidy dataset of step 5.
+
+Here is the step-by-step procedure that I have used:
+*pre-step: download the raw files and unzipped in the main directory
+*step 1: Merging the training and test sets for observations variables only and labeling the data set with descriptive variable names
+*step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
+*step 3: Merging the training and test sets for subjects and activities
+*step 4: Final procedures and refinement (more details in the script)
+*step 5: From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+##Additional notes
+
+If you want the script to work appropriately, you will need to install the package "reshape2" for step 5.
+That is, users should install reshape2 with the command install.packages("reshape2") before running the script.
+The reason I didn't put the "install.packages("reshape2") in the script is that if you already have it installed, 
+it produces a query asking you that you must restart an R session before running the script, and we don't
+want that! I called this package from the library in the script so you don't need to make it yourself.
+The script should run smoothly without any required additional task for the end user if reshape2
+is installed.
+
+##Enjoy the script!
