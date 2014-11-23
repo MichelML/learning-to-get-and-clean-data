@@ -3,11 +3,11 @@
 Hi, you will find in this directory the script and the code book required for the project of the coursera course.
 
 The goal is to create an R script called run_analysis.R that does the following. 
-1.Merges the training and the test sets to create one data set.
-2.Extracts only the measurements on the mean and standard deviation for each measurement. 
-3.Uses descriptive activity names to name the activities in the data set
-4.Appropriately labels the data set with descriptive variable names. 
-5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+-Merges the training and the test sets to create one data set.
+-Extracts only the measurements on the mean and standard deviation for each measurement. 
+-Uses descriptive activity names to name the activities in the data set
+-Appropriately labels the data set with descriptive variable names. 
+-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Global explanation of what I executed
 
@@ -16,12 +16,12 @@ script does not follow the exact steps proposed in the project instructions. Tha
 Readers should however understand that the script will lead to the goal demanded: produce the tidy dataset of step 5.
 
 Here is the step-by-step procedure that I have used:
-*pre-step: download the raw files and unzipped in the main directory
-*step 1: Merging the training and test sets for observations variables only and labeling the data set with descriptive variable names
-*step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
-*step 3: Merging the training and test sets for subjects and activities
-*step 4: Final procedures and refinement (more details in the script)
-*step 5: From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+-pre-step: download the raw files and unzipped in the main directory
+-step 1: Merging the training and test sets for observations variables only and labeling the data set with descriptive variable names
+-step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
+-step 3: Merging the training and test sets for subjects and activities
+-step 4: Final procedures and refinement (more details in the script)
+-step 5: From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Additional notes
 
